@@ -6,7 +6,7 @@
 import java.sql.SQLOutput;
 public class Main {
     public static void main(String[] args) {
-        Studente studente1 = new Studente("Gianmaria", "Rossi", 54837);
-        System.out.println(studente1);
+        Studente studente1 = new Studente("Gianmaria", "Rossi");
+        System.out.println("Lo studente selezionato e': " + studente1.getNome() + ", " + studente1.getCognome() + ", " + studente1.getId());
     }
 }
